@@ -54,7 +54,7 @@ b.  KCL:
 Calculation:
 
 a.   KVL:
-$$ i_30\omega$$
+$$\mathrm I_{30|Omega}$$
 
 
 b.  KCL:
