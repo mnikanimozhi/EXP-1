@@ -42,62 +42,47 @@ b.  KCL:
 
 CIRCUIT DIAGRAM:
 
-img=[experiment.pdf](https://github.com/user-attachments/files/23620342/experiment.pdf)
+[BEEE EX1.pdf](https://github.com/user-attachments/files/23620426/BEEE.EX1.pdf)
 
- 
 
 Calculation:
 
 a.   KVL:
-$$
-\begin{aligned}
-V=V_{1}+ V_{2}+V3\to \left( 1 \right)\\
-100=IR_{1}+IR_{2}+IR_{3}\\
-R_{eq}=R_{1}+R_{2}+R_{3}\\
-R_{eq}=180\Omega\\
-I=\frac{V}{R_{eq}}=\frac{100}{180}=0.055A\\
-\\
-V_{1}=V30\Omega=IR_{1}=0.556X30=16.68V\\
-V_{2}=V50\Omega=IR_{2}=0.556X50=27.8V\\
-V_{3}=V100\Omega=IR_{3}=0.556X100=55.6V\\
-\\
-Sub. V_{1},V_{2},V_{3} in \left( 1 \right)\\
-100=16.68+27.8+55.6=100\\
-100V=100V\\
-Hence, Proved
-\end{aligned}
-$$
+$$V=V_1+V_2+V_3$$
 
+$$100=IR_1+IR_2+IR_3$$
 
+$$Req=R_1+R_2+R_3$$
+
+$$R_{eq}=180$$
+
+$$I=V/R_{eq}=100/180$$
+
+$$I=0.556A$$
+
+$$V_1=IR1=0.556\times30=16.68V$$
+
+$$V_2=IR2=0.556\times50=27.8V$$
+
+$$V-3=IR3=0.556\times100=55.6V$$
+
+$$100V=16.68V+27.8V+55.6V$$
+
+$$100V=100V$$
+
+$$Hence Proved$$
 b.  KCL:
-$$
-\begin{aligned}
-At\enspace node\enspace A:\\
-I_{30\Omega}=I_{50\Omega}+I_{100\Omega}\\
-I_{30\Omega}=\frac{100-V}{30}\\
-I_{50\Omega}=\frac{V}{50}\\
-I_{100\Omega}=\frac{V}{100}\\
-\frac{100-V}{30}=\frac{V}{50}+\frac{V}{100}\\
-\frac{100-V}{30}=\frac{V}{5}+\frac{V}{10}\\
-1000-10V=9V\\
-19V=1000\\
-V=\frac{1000}{19}\\
-V=52.63\\
-\\ \\
-I_{30\Omega}=\frac{100-V}{30}=\frac{100-52.63}{30}=1.58A\\
-I_{50\Omega}=\frac{V}{50}=\frac{52.63}{50}=1.05\\
-I_{1000\Omega}=\frac{V}{100}=\frac{52.63}{100}=0.53A\\
-\\ \\
-At\enspace node\enspace A:\\
-I_{30\Omega}=I_{50\Omega}+I_{1000\Omega}\\
-1.58A=1.05A+0.53A\\
-1.58A=1.58A\\
-\\
-Hence,Proved\\
-\end{aligned}
-$$
-
-
+$$I-{30\Omega}=I/50\Omega+I100\Omega$$
+$I-{30\Omega}=(100-V)/30$
+$$I_{50\Omega}=V/50$$
+$$I_100\Omega=V/100$$
+$$(100-V)/30=V/50+V/100$$
+$$V=52.63V$$
+$$I_30\Omega=(100-52.63)/30=1.58A$$
+$$I-50\Omega=52.63/50=1.05A$$
+$$I_100\Omega=52.63/100=0.53A$$
+$$-1.58A+1.05A+0.53A=0A$$
+$$Hence Proved$$
 
 Tabulation:
 
