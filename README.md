@@ -18,7 +18,6 @@ KVL: Kirchhoff's voltage law states that the sum of the voltage differences arou
 KCL:
 Kirchhoff's Current Law (KCL) Kirchhoff's Current Law states that the algebraic sum of the currents entering and leaving a node is equal to zero. By convention, currents entering the node are positive, and those leaving a node are negative
 
-
 PROCEDURE:
 a.   KVL:
 1.   Connect as per the circuit diagram.
@@ -29,7 +28,6 @@ a.   KVL:
 6.   Record the voltage values shown in the voltmeter connected across each resistor.
 7.   Take readings for different values of input voltage and tabulate them.
 
-
 b.  KCL:
 1.   Connect as per the circuit diagram.
 2.   Check if the RPS voltage is set to zero voltage.
@@ -39,11 +37,9 @@ b.  KCL:
 6.   Record the voltage values shown in the ammeter connected to each resistor.
 7.   Take readings for different values of input voltage and tabulate them. 
 
-
 CIRCUIT DIAGRAM:
 
 [BEEE EX1.pdf](https://github.com/user-attachments/files/23620426/BEEE.EX1.pdf)
-
 
 Calculation:
 
@@ -99,7 +95,5 @@ b.  KCL:
 |Theoretical|-1.58A|1.05A|0.53A|52.63A|
 |practical|-1.58A|1.05A|0.53A|52.63A|
 
-
 RESULT:
-
 Thus, for the given circuit, Kirchhoff’s Laws, (a) KVL and (b) KCL are proved.
